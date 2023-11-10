@@ -8,17 +8,21 @@
  * BASE.......................................................
  */
 
-
-
- /*=============================================
+/*=============================================
  =                   Foundations               =
  =============================================*/
 
- @import "foundation/all";
+@import "foundation/all";
 
 /*==============================================
- =                   Base                      =
- =============================================*/
+  =                   Base                      =
+  =============================================*/
 
- @import "base/reset";
- @import "base/root";
+@import "base/reset";
+@import "base/root";
+
+body {
+  font-family: $body-font-family;
+  font-size: $body-font-size;
+  font-weight: $body-font-weight;
+}

@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.3",
+    "stylelint": "^15.11.0",
+    "stylelint-config-prettier": "^9.0.5",
+    "stylelint-config-sass-guidelines": "^10.0.0",
+    "stylelint-prettier": "^4.0.2"
+  },
+  "scripts": {
+    "lint": "stylelint './**/*.scss'",
+    "lint:fix": "yarn lint --fix"
+  }
+}
