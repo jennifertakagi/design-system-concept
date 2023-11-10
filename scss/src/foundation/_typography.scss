@@ -8,16 +8,10 @@
  */
 
 /*=============================================
-=            Body font family                  =
+=            Font family                  =
 =============================================*/
-$body-font-family: var(--dse-body-font-family, $playfair) !default;
-
-/*=============================================
-=            Body font sizes                  =
-=============================================*/
-
-$body-font-size: var(--dse-body-font-size, $fs-sm) !default;
-$body-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
+$heading-font-family: var(--dse-heading-font-family, $roboto) !default;
+$body-font-family: var(--dse-body-font-family, $roboto) !default;
 
 /*=============================================
 =            Heading font sizes               =
@@ -34,9 +28,116 @@ $h-6-font-size: var(--dse-h6-font-size, $h-6) !default;
 =            Head font weights                =
 =============================================*/
 
-$h-1-font-weight: var(--dse-h1-text-weight, $fw-black) !default;
-$h-2-font-weight: var(--dse-h2-text-weight, $fw-semibold) !default;
-$h-3-font-weight: var(--dse-h3-text-weight, $fw-bold) !default;
-$h-4-font-weight: var(--dse-h4-text-weight, $fw-medium) !default;
-$h-5-font-weight: var(--dse-h5-text-weight, $fw-normal) !default;
-$h-6-font-weight: var(--dse-h6-text-weight, $fw-light) !default;
+$h-1-font-weight: var(--dse-h1-font-weight, $fw-light) !default;
+$h-2-font-weight: var(--dse-h2-font-weight, $fw-light) !default;
+$h-3-font-weight: var(--dse-h3-font-weight, $fw-normal) !default;
+$h-4-font-weight: var(--dse-h4-font-weight, $fw-normal) !default;
+$h-5-font-weight: var(--dse-h5-font-weight, $fw-normal) !default;
+$h-6-font-weight: var(--dse-h6-font-weight, $fw-medium) !default;
+
+/*=============================================
+=            Head line height                =
+=============================================*/
+
+$h-1-line-height: var(--dse-h1-line-height, $lh-h-1) !default;
+$h-2-line-height: var(--dse-h2-line-height, $lh-h-2) !default;
+$h-3-line-height: var(--dse-h3-line-height, $lh-h-3) !default;
+$h-4-line-height: var(--dse-h4-line-height, $lh-h-4) !default;
+$h-5-line-height: var(--dse-h5-line-height, $lh-h-5) !default;
+$h-6-line-height: var(--dse-h6-line-height, $lh-h-6) !default;
+
+/*=============================================
+=            Body font size                =
+=============================================*/
+
+$body-1-font-size: var(--dse-body-1-font-size, $fs-lg) !default;
+$body-2-font-size: var(--dse-body-2-font-size, $fs-sm) !default;
+
+/*=============================================
+=            Body font weights               =
+=============================================*/
+
+$body-1-font-weight: var(--dse-body-1-font-weight, $fw-normal) !default;
+$body-2-font-weight: var(--dse-body-2-font-weight, $fw-normal) !default;
+
+/*=============================================
+=            Body line height               =
+=============================================*/
+
+$body-1-line-height: var(--dse-body-1-line-height, $lh-body-1) !default;
+$body-2-fine-height: var(--dse-body-2-line-height, $lh-body-2) !default;
+
+/*=============================================
+=            Subtitle font size                =
+=============================================*/
+
+$subtitle-1-font-size: var(--dse-subtitle-1-font-size, $fs-base) !default;
+$subtitle-2-font-size: var(--dse-subtitle-2-font-size, $fs-sm) !default;
+
+/*=============================================
+=            Subtitle font weights               =
+=============================================*/
+
+$subtitle-1-font-weight: var(--dse-subtitle-1-font-weight, $fw-normal) !default;
+$subtitle-2-font-weight: var(--dse-subtitle-2-font-weight, $fw-normal) !default;
+
+/*=============================================
+=            Subtitle line height               =
+=============================================*/
+
+$subtitle-1-line-height: var(--dse-subtitle-1-line-height, $lh-subtitle-1) !default;
+$subtitle-2-fine-height: var(--dse-subtitle-2-line-height, $lh-body-2) !default;
+
+/*=============================================
+=            Button font size                =
+=============================================*/
+
+$button-font-size: var(--dse-button-font-size, $fs-sm) !default;
+
+/*=============================================
+=            Button font weights               =
+=============================================*/
+
+$button-font-weight: var(--dse-button-font-weight, $fw-medium) !default;
+
+/*=============================================
+=            Button line height               =
+=============================================*/
+
+$button-line-height: var(--dse-button-line-height, $lh-button) !default;
+
+/*=============================================
+=            Caption font size                =
+=============================================*/
+
+$caption-font-size: var(--dse-caption-font-size, $fs-xs) !default;
+
+/*=============================================
+=            Caption font weights               =
+=============================================*/
+
+$caption-font-weight: var(--dse-caption-font-weight, $fw-normal) !default;
+
+/*=============================================
+=            Caption line height               =
+=============================================*/
+
+$caption-line-height: var(--dse-caption-line-height, $lh-caption) !default;
+
+/*=============================================
+=            Overline font size                =
+=============================================*/
+
+$overline-font-size: var(--dse-overline-font-size, $fs-xxs) !default;
+
+/*=============================================
+=            Overline font weights               =
+=============================================*/
+
+$overline-font-weight: var(--dse-overline-font-weight, $fw-medium) !default;
+
+/*=============================================
+=            Overline line height               =
+=============================================*/
+
+$overline-line-height: var(--dse-overline-line-height, $lh-overline) !default;
