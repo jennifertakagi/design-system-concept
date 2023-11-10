@@ -1,0 +1,23 @@
+{
+  "name": "lasagna-design-system",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jennifertakagi/lasagna-design-system.git",
+  "author": "Jennifer Takagi <jennitakagi@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "lerna": "^7.4.2"
+  },
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/normalize-scss"
+    ]
+  },
+  "scripts": {
+    "build": "yarn lerna run build"
+  }
+}
