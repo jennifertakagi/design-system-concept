@@ -20,6 +20,9 @@ $body-bg-color: var(--dse-body-bg-color, $white) !default;
 $btn-primary-color: var(--dse-btn-primary-color, $white) !default;
 $btn-primary-bg: var(--dse-btn-primary-bg, $purple) !default;
 $btn-primary-bg-hover: var(--dse-btn-primary-bg-hover, $purple-light) !default;
+$btn-secondary-color: var(--dse-btn-secondary-color, $white) !default;
+$btn-secondary-bg: var(--dse-btn-secondary-bg, $green) !default;
+$btn-secondary-bg-hover: var(--dse-btn-secondary-bg-hover, $green-light) !default;
 
 /*=============================================
 =                 Forms                       =

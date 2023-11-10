@@ -1,0 +1,83 @@
+:root {
+  --dse-body-text-color: #{$dark};
+  --dse-body-bg-color: #{$white};
+
+  --dse-btn-primary-color: #{$white};
+  --dse-btn-primary-bg: #{$green};
+  --dse-btn-primary-bg-hover: #{$green-light};
+
+  --dse-btn-secondary-color: #{$white};
+  --dse-btn-secondary-bg: #{$green};
+  --dse-btn-secondary-bg-hover: #{$green-light};
+
+  --dse-form-color: #{$green};
+  --dse-form-bg: #{$white};
+  --dse-form-error-color: #{$red};
+  --dse-form-error-border: #{$red};
+  --dse-form-border-focus-color: #{$purple};
+  --dse-form-border-color: #{$white-dark};
+  --dse-form-bg-color: #{$white};
+  --dse-form-bg-option-selected: #{$purple};
+  --dse-form-color-option-selected: #{$white};
+  --dse-form-bg-color-hover: #{$white-dark};
+
+  --dse-heading-font-family: #{$roboto};
+  --dse-body-font-family: #{$roboto};
+
+  --dse-h1-font-size: #{$h-1};
+  --dse-h2-font-size: #{$h-2};
+  --dse-h3-font-size: #{$h-3};
+  --dse-h4-font-size: #{$h-4};
+  --dse-h5-font-size: #{$h-5};
+  --dse-h6-font-size: #{$h-6};
+
+  --dse-h1-font-weight: #{$fw-light};
+  --dse-h2-font-weight: #{$fw-light};
+  --dse-h3-font-weight: #{$fw-normal};
+  --dse-h4-font-weight: #{$fw-normal};
+  --dse-h5-font-weight: #{$fw-normal};
+  --dse-h6-font-weight: #{$fw-medium};
+
+  --dse-h1-line-height: #{$lh-h-1};
+  --dse-h2-line-height: #{$lh-h-2};
+  --dse-h3-line-height: #{$lh-h-3};
+  --dse-h4-line-height: #{$lh-h-4};
+  --dse-h5-line-height: #{$lh-h-5};
+  --dse-h6-line-height: #{$lh-h-6};
+
+  --dse-body-1-font-size: #{$fs-lg};
+  --dse-body-2-font-size: #{$fs-sm};
+
+  --dse-body-1-font-weight: #{$fw-normal};
+  --dse-body-2-font-weight: #{$fw-normal};
+
+  --dse-body-1-line-height: #{$lh-body-1};
+  --dse-body-2-line-height: #{$lh-body-2};
+
+  --dse-subtitle-1-font-size: #{$fs-base};
+  --dse-subtitle-2-font-size: #{$fs-sm};
+
+  --dse-subtitle-1-font-weight: #{$fw-normal};
+  --dse-subtitle-2-font-weight: #{$fw-normal};
+
+  --dse-subtitle-1-line-height: #{$lh-subtitle-1};
+  --dse-subtitle-2-line-height: #{$lh-body-2};
+
+  --dse-button-font-size: #{$fs-sm};
+
+  --dse-button-font-weight: #{$fw-medium};
+
+  --dse-button-line-height: #{$lh-button};
+
+  --dse-caption-font-size: #{$fs-xs};
+
+  --dse-caption-font-weight: #{$fw-normal};
+
+  --dse-caption-line-height: #{$lh-caption};
+
+  --dse-overline-font-size: #{$fs-xxs};
+
+  --dse-overline-font-weight: #{$fw-medium};
+
+  --dse-overline-line-height: #{$lh-overline};
+}
