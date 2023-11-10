@@ -9,6 +9,7 @@
   "devDependencies": {
     "husky": "^8.0.3",
     "lint-staged": "^15.0.2",
+    "node-sass": "^9.0.0",
     "prettier": "^3.0.3",
     "stylelint": "^15.11.0",
     "stylelint-config-prettier": "^9.0.5",
@@ -16,6 +17,7 @@
     "stylelint-prettier": "^4.0.2"
   },
   "scripts": {
+    "build": "node src/scripts/build.js",
     "lint": "stylelint './**/*.scss'",
     "lint:fix": "yarn lint --fix"
   },
