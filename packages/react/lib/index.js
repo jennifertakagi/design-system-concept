@@ -1,8 +1,2 @@
-import React from 'react';
-
-const Button = ({ label }) => {
-    return React.createElement("button", null, label);
-};
-
-export { Button as default };
+export { default as Button } from './atoms/Button/Button.js';
 //# sourceMappingURL=index.js.map
