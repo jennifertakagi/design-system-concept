@@ -5,7 +5,7 @@ type ButtonProps = {
 }
 
 const Button = ({ label }: ButtonProps) => {
-  return <button className="dse-button-container">{label}</button>
+  return <button className="dse-button-container">{label || 'button'}</button>
 }
 
 export default Button;
