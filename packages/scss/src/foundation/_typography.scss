@@ -50,6 +50,7 @@ $h-6-line-height: var(--dse-h6-line-height, $lh-h-6) !default;
 =            Body font size                =
 =============================================*/
 
+$body-font-size: var(--dse-body-font-size, $fs-sm) !default;
 $body-1-font-size: var(--dse-body-1-font-size, $fs-lg) !default;
 $body-2-font-size: var(--dse-body-2-font-size, $fs-sm) !default;
 
@@ -57,6 +58,7 @@ $body-2-font-size: var(--dse-body-2-font-size, $fs-sm) !default;
 =            Body font weights               =
 =============================================*/
 
+$body-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
 $body-1-font-weight: var(--dse-body-1-font-weight, $fw-normal) !default;
 $body-2-font-weight: var(--dse-body-2-font-weight, $fw-normal) !default;
 
