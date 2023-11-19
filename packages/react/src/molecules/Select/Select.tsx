@@ -45,8 +45,8 @@ const Select = ({ options = [], label = 'Please select an option ...', onOptionS
 
   return <div className='dse-select'>
     <button  ref={labelRef} className='dse-select__label' onClick={() => onLabelClick()}>
-    <Text>{selectedOption === null ? label : selectedOption.label}</Text>
-      <svg width='1rem' height='1rem' fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24" stroke="currentColor"><path d="M19 9l-7 7-7-7" /></svg>
+      <Text>{selectedOption === null ? label : selectedOption.label}</Text>
+      <svg className={`dse-select__caret ${isOpen ? 'dse-select__caret--open' : 'dse-select__caret--closed'}`} width='1rem' height='1rem' fill="none" strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} viewBox="0 0 24 24" stroke="currentColor"><path d="M19 9l-7 7-7-7" /></svg>
     </button>
 
     {isOpen ? (
