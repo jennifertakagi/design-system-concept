@@ -124,6 +124,7 @@ const Select: React.FunctionComponent<SelectProps> = ({ options = [], label = 'P
         aria-haspopup={true} 
         aria-expanded={isOpen ? true: undefined} 
         className='dse-select__label'
+        data-testid='DseSelectButton'
         onClick={() => onLabelClick()}
         onKeyDown={onButtonKeyDown}
         ref={labelRef} 
